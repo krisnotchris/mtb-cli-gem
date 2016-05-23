@@ -6,7 +6,7 @@ With this gem, you can:
  -Check the status of all of the current DORBA official trails to see if they are open or closed.
  -See how much money has been contributed to each particular trail.
 
- ##//INSTALLATION//
+ ## //INSTALLATION//
  Add to your gemfile:
 
  `gem 'mtb-cli-gem'`
@@ -15,7 +15,7 @@ With this gem, you can:
 
  `gem install 'mtb-cli-gem'`
 
- ##//USAGE//
+ ## //USAGE//
 After installing the gem, you will run it by typing:
 
 `ruby bin/mtb-cli-gem`
