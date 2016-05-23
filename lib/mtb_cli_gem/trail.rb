@@ -16,6 +16,7 @@ class MTBCliGem::Trail
 
   def self.scrape_dorba
     doc = Nokogiri::HTML(open("https://dorba.org/index.php"))
+    binding.pry
   end
 
 end
