@@ -20,7 +20,7 @@ class MTBCliGem::Trail
 
   def self.get_trails
     binding.pry
-    self.get_page.css("/html/body/div[@id='main_content']/div[@class='row-fluid']/div[@id='left_nav']/div[@class='well sidebar-nav'][1]/div[@id='accordion2']/div[@class='accordion-group'][1]/div[@id='collapseOne']/div[@class='accordion-inner']/ul[@id='dorba']/li[1]/a[@class='open']")
+    self.get_page.xpath("/html/body/div[@id='main_content']/div[@class='row-fluid']/div[@id='left_nav']/div[@class='well sidebar-nav'][1]/div[@id='accordion2']/div[@class='accordion-group'][1]/div[@id='collapseOne']/div[@class='accordion-inner']/ul[@id='dorba']/li[1]/a[@class='open']")
   end
 
 
