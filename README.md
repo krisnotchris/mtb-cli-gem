@@ -13,10 +13,10 @@ Welcome to my DORBA mountain bike trails CLI gem. With this gem, you can:
 
  `gem install 'mtb-cli-gem'`
 
- #### Usage
-After installing the gem, you will run it by typing:
+#### Usage
+ After installing the gem, you will run it by typing:
 
-`ruby bin/mtb-cli-gem`
+ `ruby bin/mtb-cli-gem`
 
  Enjoy :)
  Any questions or comments can be sent to krishenderson@gmail.com
